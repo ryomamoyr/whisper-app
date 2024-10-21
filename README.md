@@ -1,15 +1,3 @@
-
-.
-├── Procfile
-├── README.md
-├── config
-│   └── config.yaml
-├── data
-│   └── o1short.mp3
-├── pyproject.toml
-├── src
-│   ├── __init__.py
-│   ├── app.py
-│   └── requirements.txt
-├── uv.lock
-└── wisper-app.zip
+- `pyproject.toml`を基に依存関係インストール
+- `src/app.py`を実行する
+- `http://127.0.0.1:7860/`にWebブラウザからアクセスする
